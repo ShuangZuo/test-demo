@@ -97,15 +97,16 @@ export default {
 }
 .el-button--primary.is-plain {
   width: 50%;
+  margin-top: 15px;
 }
 .login-form {
-  width: 500px;
+  width: 19rem;
   padding: 30px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow:0px 0 26px #49c2e2;
+  box-shadow:0px -5px 19px #49c2e2 inset;
   border-radius: 5px;
 }
 </style>
