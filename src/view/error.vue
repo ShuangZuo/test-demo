@@ -1,6 +1,6 @@
 <template>
   <div class="error">
-    抱歉服务开小差了。
+    <p>用户名或密码错误！</p>
   </div>
 </template>
 
@@ -8,19 +8,18 @@
 export default {
   name: 'Error',
   data () {
-    return {
-      
-    }
+    return {}
   },
-  created() {},
-  methods: {
-    
-  }
+  created () {},
+  methods: {}
 }
 </script>
 
 <style scoped>
 .error {
-
+  margin-top: 10%;
+  font-size: 22px;
+  text-align: center;
+  color: red;
 }
 </style>
