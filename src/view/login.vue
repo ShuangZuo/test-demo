@@ -74,8 +74,7 @@ export default {
           this.$router.push({
             name: 'Home'
           })
-        }
-        else {
+        } else {
           this.$router.push({
             name: 'Error'
           })
